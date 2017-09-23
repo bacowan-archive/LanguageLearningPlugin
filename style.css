@@ -1,0 +1,6 @@
+form  { display: table;      }
+p     { display: table-row; white-space: nowrap}
+label { display: table-cell; padding-right: 5px}
+input { display: table-cell;  margin-top: 5px }
+#searchButton {}
+.hidden { display: none }

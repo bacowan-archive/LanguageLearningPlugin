@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Language Learning Plugin",
+  "description": "Search tool for learning languages which records your queries and uses them to quiz you in the future",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "WanLewd.png",
+    "default_popup": "popup.html"
+  },
+    
+  "permissions": [
+      "activeTab",
+      "storage",
+      "unlimitedStorage",
+      "contextMenus"
+  ],
+    
+  "icons": {
+      "16": "WanLewd.png"
+  }
+}

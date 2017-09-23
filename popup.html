@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src= "popup.js"></script>
+</head>
+<body>
+    <div id="search">
+        <p>
+            <label>Word or Phrase:</label>
+            <input type="text" id="word">
+        </p>
+        <p>
+            <label>Search Query:</label>
+            <input type="text" id="query">
+        </p>
+        <p>
+            <label>Context:</label>
+            <input type="text" id="context">
+        </p>
+        <p>
+            <label>Search provider:</label>
+            <input type="text" id="provider">
+        </p>
+        <p>
+            <button id="searchButton">Search</button>
+            <button id="clearHistoryButton">Clear History</button>
+        </p>
+    </div>
+    <div id="quiz" class="hidden">
+        <p>
+            You've searched for <i id="searchedForAlready"></i> before.
+        </p>
+        <p class="hidden" id="hint"></p>
+        <button id="hintButton">Hint</button>
+        <button id="answerButton">Show Answer</button>
+    </div>
+</body>
+</html>
